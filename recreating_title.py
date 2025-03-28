@@ -12,8 +12,8 @@ for index in range(len(string_input)):
         result += string_input[index].upper()
     # else
     else:
-        print(string_input[index])
         # concatenate the lowercase of current character
+        result += string_input[index].lower()
 
 # print result
 print(result)
