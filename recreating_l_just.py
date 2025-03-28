@@ -8,7 +8,8 @@ string_input = input("Enter string to be left-justified: ")
 if total_characters > len(string_input):
     # get the number of spaces to fill
     spaces = total_characters - len(string_input)
-    print(spaces)
     # concatenate the spaces to string_input
+    string_input += " " * spaces
 
 # print string_input
+print(f'RESULT: "{string_input}"')
