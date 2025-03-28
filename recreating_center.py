@@ -21,7 +21,10 @@ else:
     # assign spaces as total_characters - length of string_input
     spaces = total_characters - len(string_input)
     # assign left_spaces as rounded down spaces divided by 2
+    left_spaces = spaces // 2
     # assign right_spaces as spaces - left spaces
+    right_spaces = spaces - left_spaces
+    print(left_spaces, right_spaces)
     # concatenate the left_spaces and right_spaces to string_input
 
 # print string_input
