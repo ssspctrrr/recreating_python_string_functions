@@ -10,6 +10,8 @@ for index in range(len(string_input)):
     # check if character is uppercased
     if string_input[index].isupper():
         # get ascii code of character
+        ascii_upper = ord(string_input[index])
+        print(ascii_upper, string_input[index])
         # concatenate the lowercase to result
         result += string_input[index]
     # else if character is not uppercased:
