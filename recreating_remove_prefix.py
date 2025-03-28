@@ -4,10 +4,9 @@ string_input = input("Enter string: ")
 # get prefix
 prefix = input("Enter prefix to be removed: ")
 
-print(string_input)
-print(prefix)
-
 # check if prefix is at the start of string_input
+if prefix == string_input[0:len(prefix)]:
     # slice string input if true
+    print(True)
 
 # print result
