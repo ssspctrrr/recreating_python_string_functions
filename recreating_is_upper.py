@@ -8,9 +8,13 @@ is_uppercase = False
 for index in range(len(string_input)):
     # get ascii_code of character
     ascii_code = ord(string_input[index])
-    print(ascii_code)
+    
     # check if current character is not alphabetical
+    if string_input[index].isalpha() == False:
         # continue to next iteration
+        continue
+    else:
+        print(string_input[index])
     # else if ascii_code is in range of 65 to 90 and character is alphabetical
         # set is_uppercase as True
     # else if ascii_code is not in range of 65 to 90 and character is alphabetical
