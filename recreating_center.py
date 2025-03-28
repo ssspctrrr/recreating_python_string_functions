@@ -24,8 +24,8 @@ else:
     left_spaces = spaces // 2
     # assign right_spaces as spaces - left spaces
     right_spaces = spaces - left_spaces
-    print(left_spaces, right_spaces)
     # concatenate the left_spaces and right_spaces to string_input
+    string_input = " " * left_spaces + string_input + " " * right_spaces
 
 # print string_input
 print(f'RESULT: "{string_input}"')
