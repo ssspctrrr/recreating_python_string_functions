@@ -1,6 +1,8 @@
 # get total_characters
+total_characters = int(input("Enter the number of total characters: "))
 
 # get string_input
+string_input = input("Enter string to be centered: ")
 
 # check if total_characters is greater than length of string_input
     # pass
