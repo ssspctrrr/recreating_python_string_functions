@@ -6,8 +6,9 @@ is_uppercase = False
 
 # iterate over the characters of string_input
 for index in range(len(string_input)):
-    print(string_input[index])
     # get ascii_code of character
+    ascii_code = ord(string_input[index])
+    print(ascii_code)
     # check if current character is not alphabetical
         # continue to next iteration
     # else if ascii_code is in range of 65 to 90 and character is alphabetical
