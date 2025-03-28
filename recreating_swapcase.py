@@ -10,17 +10,18 @@ for index in range(len(string_input)):
     if string_input[index].islower():
         # assign swap_character as the uppercase of current character
         swap_character = string_input[index].upper()
-        print(swap_character)
         # concatenate swap_character to result
+        result += swap_character
     # check if current character is uppercased
     elif string_input[index].isupper():
         # assign swap_character as the lowercase of current character
         swap_character = string_input[index].lower()
-        print(swap_character)
         # concatenate swap_character to result
+        result += swap_character
     # else
     else:
-        print(string_input[index])
+        result += string_input[index]
         # concatenate current character to result
 
-# print string_input
+# print result
+print(result)
