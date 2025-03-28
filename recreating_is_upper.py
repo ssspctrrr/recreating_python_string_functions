@@ -1,6 +1,8 @@
 # get string_input
+string_input = input("Enter string to be checked if uppercased: ")
 
 # define is_uppercase as False
+is_uppercase = False
 
 # iterate over the characters of string_input
     # get ascii_code of character
