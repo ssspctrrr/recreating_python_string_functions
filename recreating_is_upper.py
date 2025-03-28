@@ -5,6 +5,8 @@ string_input = input("Enter string to be checked if uppercased: ")
 is_uppercase = False
 
 # iterate over the characters of string_input
+for index in range(len(string_input)):
+    print(string_input[index])
     # get ascii_code of character
     # check if current character is not alphabetical
         # continue to next iteration
@@ -14,6 +16,8 @@ is_uppercase = False
         # set is_uppercase as False
         # break loop
 # else:
+else:
+    print("loop else triggered")
     # if is_uppercase is True
         # print "string is uppercased"
     # else
