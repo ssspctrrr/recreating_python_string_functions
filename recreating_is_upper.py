@@ -22,13 +22,13 @@ for index in range(len(string_input)):
         # set is_uppercase as False
         is_uppercase = False
         # break loop
+        break
 
-    print(string_input[index], is_uppercase)
-
-# else:
+# if is_uppercase is True
+if is_uppercase == True:
+    # print "string is uppercased"
+    print("TRUE. String is uppercased.")
+# else
 else:
-    print("loop else triggered")
-    # if is_uppercase is True
-        # print "string is uppercased"
-    # else
-        # print "string is not uppercased"
+    # print "string is not uppercased"
+    print("FALSE. String is not uppercased.")
