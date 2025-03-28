@@ -1,14 +1,13 @@
 # get string_input
 string_input = input("Enter string to put in title-casing: ")
-print(string_input)
 
 # define result
 result = ""
 
-# assign words by splitting string_input using " "
-
-# iterate over the word in words
-    # capitalize word
-    # concatenate result and word
-
+# iterate over the indexes of the characters in string_input
+    # check if current index == 0 or previous character == " "
+        # concatenate result and uppercase of current character
+    # else
+        # concatenate the lowercase of current character
+        
 # print result
