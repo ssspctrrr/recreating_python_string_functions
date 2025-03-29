@@ -3,8 +3,9 @@ string_input = input("Enter string (preferably with several spaces at the end): 
 
 # check if length of string_input is more than 1
 if len(string_input) > 1:
-    print(len(string_input))
     # iterate over the reverse indexing of string_input
+    for index in range(len(string_input) - 1, -1, -1):
+        print(index, string_input[index])
         # check if current character is not " "
             # split string_input from start to current character
             # break loop
