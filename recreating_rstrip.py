@@ -1,4 +1,5 @@
 # get string_input
+string_input = input("Enter string (preferably with several spaces at the end): ")
 
 # check if length of string_input is more than 1
     # iterate over the reverse indexing of string_input
@@ -7,3 +8,4 @@
             # break loop
 
 # print string_input
+print(string_input)
