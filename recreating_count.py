@@ -17,6 +17,7 @@ while index < len(string_input):
     if string_input[index:index + len(string_to_count)] == string_to_count:
         print("string found here, add count")
         # increment count_of_string by 1
+        count_of_string += 1
         # increment index by length of string_to_find
         # continue
     
@@ -24,3 +25,4 @@ while index < len(string_input):
     index += 1
 
 # print count_of_string
+print(count_of_string)
