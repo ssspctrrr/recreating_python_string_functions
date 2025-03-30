@@ -14,11 +14,12 @@ count_of_string = 0
 while index < len(string_input):
     # check if string_to_count == ""
     if string_to_count == "":
-        print("you are counting empty string")
         # assign count_of_string as length of string_input + 1
+        count_of_string = len(string_input) + 1
         # break loop 
+        break
     # else if string_input[index:index + length of string_to_count] == string_to_count
-    if string_input[index:index + len(string_to_count)] == string_to_count:
+    elif string_input[index:index + len(string_to_count)] == string_to_count:
         # increment count_of_string by 1
         count_of_string += 1
         # increment index by length of string_to_find
