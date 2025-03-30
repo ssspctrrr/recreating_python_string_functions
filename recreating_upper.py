@@ -10,9 +10,8 @@ for character in string_input:
     if character.islower():
         # get ascii code of current character
         ascii_code = ord(character)
-        print(ascii_code, character)
         # concatenate its uppercase to result
-        result += character
+        result += chr(ascii_code - 32)
     # else
     else:
         # concatenate current character to result
