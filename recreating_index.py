@@ -8,8 +8,11 @@ string_to_find = input("Enter character/s to find: ")
 for index in range(0, len(string_input)):
     print(index, string_input[index:index + len(string_to_find)])
     # if current character/s == string_to_find
+    if string_input[index:index + len(string_to_find)] == string_to_find:
+        print("string found")
         # print current index
         # break loop
+        break
 # else
 else:
     print("loop else triggered")
