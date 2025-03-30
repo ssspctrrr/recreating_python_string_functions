@@ -11,11 +11,14 @@ index = 0
 count_of_string = 0
 
 # iterate while index < length of string_input:
+while index < len(string_input):
+    print(index)
     # check if string_input[index:length of string_to_find] == string_to_find
         # increment count_of_string by 1
         # increment index by length of string_to_find
         # continue
     
     # increment index by 1
+    index += 1
 
 # print count_of_string
