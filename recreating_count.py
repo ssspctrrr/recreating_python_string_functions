@@ -12,14 +12,14 @@ count_of_string = 0
 
 # iterate while index < length of string_input:
 while index < len(string_input):
-    print(index, string_input[index:index + len(string_to_count)])
     # check if string_input[index:index + length of string_to_count] == string_to_count
     if string_input[index:index + len(string_to_count)] == string_to_count:
-        print("string found here, add count")
         # increment count_of_string by 1
         count_of_string += 1
         # increment index by length of string_to_find
+        index += len(string_to_count)
         # continue
+        continue
     
     # increment index by 1
     index += 1
