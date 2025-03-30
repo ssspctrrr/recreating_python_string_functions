@@ -13,13 +13,16 @@ for character in string_input:
     if character.isalpha() == False:
         # continue to next iteration
         continue
-    else:
-        print(ascii_code, character)
     # else if ascii_code is in range of 97 to 122
+    elif ord(character) in range(97, 123):
         # set is_lower as True
+        is_lower = True
     # else
+    else:
         # set is_lower as False
+        is_lower = False
         # break loop
+    print(character, is_lower)
 
 # check if is_lower == True
     # print "String is lowercased"
