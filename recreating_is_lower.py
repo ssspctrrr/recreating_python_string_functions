@@ -1,6 +1,10 @@
 # get string_input
+string_input = input("Enter string to check if lowercased: ")
 
 # define is_lower as False
+is_lower = False
+
+print(string_input, is_lower)
 
 # iterate over the characters of string_input
     # get ascii_code of current character
