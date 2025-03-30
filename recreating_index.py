@@ -14,5 +14,5 @@ for index in range(0, len(string_input)):
         break
 # else
 else:
-    print("loop else triggered")
     # raise ValueError with message "substring not found"
+    raise ValueError("substring not found")
