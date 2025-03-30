@@ -8,7 +8,8 @@ string_input = input("Enter string to be right-justified: ")
 if total_characters > len(string_input):
     # assign spaces as total_character - length of string_input
     spaces = total_characters - len(string_input)
-    print(spaces)
     # concatenate spaces at start of string_input
+    string_input = " " * spaces + string_input
 
 # print string_input
+print(f'RESULT: "{string_input}"')
