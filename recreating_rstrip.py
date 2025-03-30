@@ -9,8 +9,8 @@ if len(string_input) > 1:
         # check if current character is not " "
         if string_input[index] != " ":
             # split string_input from start to current character
+            string_input = string_input[:index + 1]
             # break loop
-            print("split here")
             break
 
 # print string_input
