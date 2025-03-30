@@ -22,9 +22,13 @@ for character in string_input:
         # set is_lower as False
         is_lower = False
         # break loop
-    print(character, is_lower)
+        break
 
 # check if is_lower == True
+if is_lower == True:
     # print "String is lowercased"
+    print("True. String is lowercased.")
 # else
+else:
     # print "String is not lowercased"
+    print("False. String is not lowercased.")
