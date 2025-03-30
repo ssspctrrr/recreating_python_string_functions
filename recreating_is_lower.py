@@ -6,8 +6,9 @@ is_lower = False
 
 # iterate over the characters of string_input
 for character in string_input:
-    print(character)
     # get ascii_code of current character
+    ascii_code = ord(character)
+    print(ascii_code, character)
 
     # check if current character is alphabetical
         # continue to next iteration
