@@ -11,9 +11,12 @@ for character in string_input:
         print(character, "convert to uppercase")
         # get ascii code of current character
         # concatenate its uppercase to result
+        result += character
     # else
     else:
         print(character, "stay")
         # concatenate current character to result
+        result += character
 
 # print result
+print(result)
