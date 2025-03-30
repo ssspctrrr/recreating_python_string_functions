@@ -4,9 +4,9 @@ string_input = input("Enter string to be checked: ")
 # get prefix
 prefix = input("Enter prefix to find and check: ")
 
-print(string_input, prefix)
-
 # check if prefix is start of string_input
+if prefix == string_input[:len(prefix)]:
     # print "True. string_input starts with prefix."
+    print("prefix found")
 # else
     # print "False. string_input does not start with prefix"
