@@ -9,11 +9,13 @@ if len(string_input) >= total_characters:
     # pass
     pass
 # else if first character is "+" or "-"
-else:
-    print("add zeroes")
+elif string_input[0] in ["+", "-"]:
+    print("sign present:", string_input[0])
     # assign zeroes as total_characters - length of string_input[1:]
     # concatenate the sign, zeroes, to string_input
 # else
+else:
+    print("no signs")
     # assign zeroes as total_character - length of string_input
     # concatenate zeros to string_input
 
