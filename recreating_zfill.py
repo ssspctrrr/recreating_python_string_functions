@@ -1,6 +1,10 @@
 # get number of total_characters
+total_characters = int(input("Enter number of characters: "))
 
 # get string_input
+string_input = input("Enter string to be added with zeroes: ")
+
+print(total_characters, string_input)
 
 # check if length of string_input is greater than or equal to total_characters
     # pass
