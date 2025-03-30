@@ -10,9 +10,11 @@ if len(string_input) >= total_characters:
     pass
 # else if first character is "+" or "-"
 elif string_input[0] in ["+", "-"]:
-    print("sign present:", string_input[0])
-    # assign zeroes as total_characters - length of string_input[1:]
+    # assign zeroes as total_characters - length of string_input
+    zeroes = total_characters - len(string_input)
+    print(zeroes)
     # concatenate the sign, zeroes, to string_input
+    string_input = string_input[0] + "0" * zeroes + string_input[1:]
 # else
 else:
     print("no signs")
