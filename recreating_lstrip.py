@@ -11,4 +11,4 @@ for index in range(0, len(string_input)):
         break
 
 # print result
-print(string_input)
+print(f'RESULT: "{string_input}"')
